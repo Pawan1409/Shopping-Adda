@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping Adda</title>
+        <!-- Bootstrap Core CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- SmartMenus jQuery Bootstrap Plugin CSS -->
+        <link rel="stylesheet" href="/addons/bootstrap/jquery.smartmenus.bootstrap.css">
+        <!-- Main CSS File-->
+        <link rel="stylesheet" href="css/main.css">
+
+<!--
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+-->
+    </head>
+
+    <body>
+
+        <!-- Header with Logo-->
+        <header id="mainHeader">
+            <div class="main-logo" >
+                <img id="logo" src="/assets/logo.png" alt="shopping adda logo">
+            </div>
+        </header>
+
+        <!-- Navbar fixed top -->
+        <div class="navbar navbar-inverse" id="mainNavbar" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Shopping Adda</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul id="mainMenu"></ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li id="wishlistBtn" onclick="showWishlist()">
+                            <a href="#wishlist" class="notification" id="wishlistCount">
+                                <span class="glyphicon glyphicon-heart"></span> My Wishlist
+                            </a>
+                        </li>
+                        <li id="cartBtn" onclick="showCart()">
+                            <a href="#cart" class="notification" id="cartCount">
+                                <span class="glyphicon glyphicon-shopping-cart"></span> My Cart
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+<!--
+        <div id="slideshow-container">
+            <div class="slideshowImg fade">
+                <img src="/assets/img1.jpg" style="width:100%">
+            </div>
+            <div class="slideshowImg fade">
+                <img src="/assets/img1.jpg" style="width:100%">
+            </div>
+            <div class="slideshowImg fade">
+                <img src="/assets/img1.jpg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+-->
+
+        <!-- Content will go here-->
+        <div class="container" id="mainContent">
+            <div class="row">
+                <div id="filters" class="col-md-2 well">
+                    <!-- FIlters will be shown here-->
+                </div>
+                <div id="products" class="col-md-9 well">
+                    <!-- Products will be shown here-->
+                </div>
+                <div id="products-filtered" class="col-md-9 well">
+                    <!-- Products will be shown here-->
+                </div>
+                <div id="cart">
+                    <!-- Cart products will be shown here -->
+                </div>
+                <div id="wishlist">
+                    <!-- Cart products will be shown here -->
+                </div>
+                <div id="item-description">
+                    <!-- Modal Will Open Here -->
+                </div>
+
+<!--
+                <div>
+                    <h1>Test Data</h1>
+                    <h1>Test Data</h1>
+                    <h1>Test Data</h1>
+                    <h1>Test Data</h1>
+                    <h1>Test Data</h1>
+                    <h1>Test Data</h1>
+                    <h1>Test Data</h1>
+                    <h1>Test Data</h1>
+                    <h1>Test Data</h1>
+                    <h1>Test Data</h1>
+                    <h1>Test Data</h1>
+                    <h1>Test Data</h1>
+                    <h1>Test Data</h1>
+                    <h1>Test Data</h1>
+                </div>
+-->
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+        <!-- Bootstrap JS  -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- RenderMenu.js Plugin     -->
+        <script src="/js/renderMenu.js"></script>
+
+        <!-- SmartMenus jQuery plugin -->
+        <script src="/js/jquery.smartmenus.js"></script>
+
+        <!-- SmartMenus jQuery Bootstrap Addon -->
+        <script src="/addons/bootstrap/jquery.smartmenus.bootstrap.js"></script>
+
+        <!-- Main JavaScript File-->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>

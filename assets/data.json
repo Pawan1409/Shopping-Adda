@@ -1,0 +1,63 @@
+[
+    {
+        "text": "Electronics",
+        "children": [
+            {
+                "href": "#",
+                "text": "Mobiles"
+            },
+            {
+                "href": "#",
+                "text": "Laptops"
+            },
+            {
+                "href": "#",
+                "text": "Televisions"
+            }
+        ]
+    },
+    {
+        "text": "Fashion",
+        "children": [
+            {
+                "href": "#",
+                "text": "Shirts"
+            },
+            {
+                "href": "#",
+                "text": "T-Shirts"
+            }
+            ,
+            {
+                "href": "#",
+                "text": "Trousers"
+            },
+            {
+                "href": "#",
+                "text": "Jeans"
+            },
+            {
+                "href": "#",
+                "text": "Jackets"
+            }
+        ]
+    },
+    {
+        "text": "Kitchenware",
+        "children": [
+            {
+                "href": "#",
+                "text": "Pan"
+            },
+            {
+                "href": "#",
+                "text": "Cooker"
+            }
+            ,
+            {
+                "href": "#",
+                "text": "Induction"
+            }
+        ]
+    }
+]

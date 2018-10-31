@@ -1,0 +1,14 @@
+{
+  "name": "json-fake-server",
+  "version": "1.0.0",
+  "description": "Test for shopping adda",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch data.json"
+  },
+  "author": "Pawan Parihar",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.14.0"
+  }
+}

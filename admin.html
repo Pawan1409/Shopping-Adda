@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Shopping Adda - Admin Panel</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping Adda</title>
+        <!-- Bootstrap Core CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <!-- Bootstrap JS  -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+        <header id="mainHeader">
+            <div class="main-logo" >
+                <img id="logo" src="/assets/logo.png" alt="shopping adda logo">
+            </div>
+        </header>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Admin Panel</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li onclick="showCatForm()"><a href="#">Add Category</a></li>
+                    <li onclick="showSubcatForm()"><a href="#">Add Subcategory</a></li>
+                    <li onclick="showProdForm()"><a href="#">Add Product</a></li>
+                    <li onclick="showProdList()"><a href="#">Product Details</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container" id="category">
+            <form class="form-horizontal" id="category-form">
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Category</label>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" id="category" name="text" placeholder="Enter category">
+                    </div>
+                </div>
+                <div class="form-group dynamic">
+                    <div class="col-sm-offset-2 col-sm-4">
+                        <button class="btn btn-default" id="add-category">Add Category</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="container" id="sub-category">
+            <form class="form-horizontal" id="subcategory-form">
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Category</label>
+                    <div class="dropdown col-sm-2">
+                        <select class="form-control" id="dropcategories">
+                            <option value="-1">-- Select Category --</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Sub-Category</label>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" id="sub-category" name="text" placeholder="Enter sub category">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="button" value="Add Field" id="btAdd"  class="bt"/>
+                    <input type="button" id="btRemove" value="Remove Field" class="bt"/>
+                </div>
+
+                <div class="form-group submitBtn">
+                    <div class="col-sm-offset-2 col-sm-4">
+                        <button class="btn btn-default" id="add-subcategory">Add Sub-Category</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+
+        <div class="container" id="product">
+            <form class="form-horizontal" id="product-form">
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Category</label>
+                    <div class="dropdown col-sm-2">
+                        <select class="form-control" id="dropcategories1" onchange="displaySub1()">
+                            <option value="-1">-- Select Category --</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="category">Sub-category</label>
+                    <div class="dropdown col-sm-2">
+                        <select class="form-control" id="dropsub-categories1" name="category" onchange="displayFields()">
+                            <option value="-1">-- Select Sub-category --</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <div class="container" id="product-list">
+            <div class="table-responsive">
+                <table class="table" id="display-product">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Category</th>
+                            <th>Name</th>
+                            <th>Brand</th>
+                            <th>Price</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="productModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content" id="productDetails">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Product Details</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>${p.id}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--
+        <h2>Categories</h2>
+        <ul id="categories"></ul>
+-->
+<!--
+        <h2>Products</h2>
+        <ul id="products"></ul>
+-->
+        
+
+
+<!--        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>-->
+
+        
+
+        <!-- Main JavaScript File-->
+        <script src="js/admin.js"></script>
+    </body>
+</html>

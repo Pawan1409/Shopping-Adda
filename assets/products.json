@@ -1,0 +1,249 @@
+[
+    {
+        "id": 2001,
+        "category":"Laptops",
+        "name": "Dell Inspiron 15 3000 Core i3",
+        "brand":"DELL",
+        "RAM": 4,
+        "processor": "i3",
+        "image": "/assets/dell.jpg",
+        "price": 30490,
+        "description": "1 TB HDD, Windows 10 Home, Core i3, 6th Gen"
+    },
+    {
+        "id": 2002,
+        "category":"Laptops",
+        "name": "Dell Vostro 15 3000 Core i5",
+        "brand":"DELL",
+        "RAM": 8,
+        "processor": "i5",
+        "image": "/assets/dell.jpg",
+        "price": 43490,
+        "description": "1 TB HDD, DOS OS, 2 GB Graphics, 8th Gen"
+    },
+    {
+        "id": 2003,
+        "category":"Laptops",
+        "name": "Dell Inspiron 14 3000 Core i3",
+        "brand":"DELL",
+        "RAM": 4,
+        "processor": "i3",
+        "image": "/assets/dell.jpg",
+        "price": 29990,
+        "description": "1 TB HDD, Windows 10 Home, 7th Gen"
+    },
+    {
+        "id": 2004,
+        "category":"Laptops",
+        "name": "Dell Inspriron 15 5000 ryzen 5",
+        "brand":"DELL",
+        "RAM": 8,
+        "processor": "i5",
+        "image": "/assets/dell.jpg",
+        "price": 48490,
+        "description": "1 TB HDD, Windows 10 Home, 5 Quad Core Processor"
+    },
+    {
+        "id": 2005,
+        "category":"Laptops",
+        "name": "HP 14q Core i3 7th Gen",
+        "brand":"HP",
+        "RAM": 4,
+        "processor":"i3",
+        "image": "/assets/dell.jpg",
+        "price": 27990,
+        "description": "1 TB HDD, DOS Operating System, 7th Gen"
+    },
+    {
+        "id": 2006,
+        "category":"Laptops",
+        "name": "HP 15q Core i3 7th Gen",
+        "brand":"HP",
+        "RAM": 8,
+        "processor":"i3",
+        "image": "/assets/dell.jpg",
+        "price": 33990,
+        "description": "1 TB HDD, DOS Operating System, 7th Gen"
+    },
+    {
+        "id": 2007,
+        "category":"Laptops",
+        "name": "HP ENvy 13 Core i5 ",
+        "brand":"HP",
+        "RAM": 8,
+        "processor":"i5",
+        "image": "/assets/dell.jpg",
+        "price": 75490,
+        "description": "1 TB HDD, Windows 10 Home, 8th Gen"
+    },
+    {
+        "id": 2008,
+        "category":"Laptops",
+        "name": "HP Pavilion x360 Core i3",
+        "brand":"HP",
+        "RAM": 4,
+        "processor":"i3",
+        "image": "/assets/dell.jpg",
+        "price": 50990,
+        "description": "1 TB HDD Windows 10 Home, 8th Gen"
+    },
+    {
+        "id": 2009,
+        "category":"Laptops",
+        "name": "Asus ZenBook Pro 15 Core i7",
+        "brand":"ASUS",
+        "RAM": 16,
+        "processor":"i7",
+        "image": "/assets/dell.jpg",
+        "price": 179989,
+        "description": "NVIDIA GeForce GTX 1050Ti, Windows 10, 1 TB SSD"
+    },
+    {
+        "id": 2010,
+        "category":"Laptops",
+        "name": "Asus ROG Core i7",
+        "brand":"ASUS",
+        "RAM": 8,
+        "processor": "i7",
+        "image": "/assets/dell.jpg",
+        "price": 146490,
+        "description": "1 TB HDD + 256 SSD, Windows 10 Home, 7th Gen"
+    },
+    {
+        "id": 1001,
+        "category":"Mobiles",
+        "name": "SAMSUNG GALAXY S8",
+        "brand":"SAMSUNG",
+        "RAM": 4,
+        "image": "/assets/mobile.jpg",
+        "price": 45990,
+        "description": "64 GB ROM, 12 + 8 MP Camera 3000mAh Battery"
+    },
+    {
+        "id": 1002,
+        "category":"Mobiles",
+        "name": "SAMSUNG GALAXY A7",
+        "brand":"SAMSUNG",
+        "RAM": 4,
+        "image": "/assets/mobile.jpg",
+        "price": 23990,
+        "description": "64 GB ROM, 24 + 5 + 8 MP Camera 3300mAh Battery"
+    },
+    {
+        "id": 1003,
+        "category":"Mobiles",
+        "name": "SAMSUNG GALAXY On Nxt",
+        "brand":"SAMSUNG",
+        "RAM": 3,
+        "image": "/assets/mobile.jpg",
+        "price": 12900,
+        "description": "64 GB ROM, 13 + 8 MP Camera 3300mAh Battery"
+    },
+    {
+        "id": 1004,
+        "category":"Mobiles",
+        "name": "SAMSUNG GALAXY J3 Pro",
+        "brand":"SAMSUNG",
+        "RAM": 2,
+        "image": "/assets/mobile.jpg",
+        "price": 7490,
+        "description": "16 GB ROM, 8 + 5 MP Camera 2600mAh Battery"
+    },
+    {
+        "id": 1005,
+        "category":"Mobiles",
+        "name": "Redmi 6",
+        "brand":"Mi",
+        "RAM": 3,
+        "image": "/assets/mobile.jpg",
+        "price": 7999,
+        "description": "32 GB ROM, 12 + 5 + 5 MP Camera 3000mAh Battery"
+    },
+    {
+        "id": 1006,
+        "category":"Mobiles",
+        "name": "Redmi Note 5 Pro",
+        "brand":"Mi",
+        "RAM": 4,
+        "image": "/assets/mobile.jpg",
+        "price": 14999,
+        "description": "64 GB ROM, 12 + 5 + 20 MP Camera 4000mAh Battery"
+    },
+    {
+        "id": 1007,
+        "category":"Mobiles",
+        "name": "Mi A1",
+        "brand":"Mi",
+        "RAM": 4,
+        "image": "/assets/mobile.jpg",
+        "price": 14198,
+        "description": "64 GB ROM, 12 + 5+ 5 MP Camera 3000mAh Battery"
+    },
+    {
+        "id": 1008,
+        "category":"Mobiles",
+        "name": "Mi Mix 2",
+        "brand":"Mi",
+        "RAM": 6,
+        "image": "/assets/mobile.jpg",
+        "price": 29999,
+        "description": "64 GB ROM, 12 + 5 MP Camera 3400mAh Battery"
+    },
+    {
+        "id": 1009,
+        "category":"Mobiles",
+        "name": "Nokia 8 Sirocco",
+        "brand":"NOKIA",
+        "RAM": 6,
+        "image": "/assets/mobile.jpg",
+        "price": 49500,
+        "description": "128 GB ROM, 12 + 13 + 5 MP Camera 3260mAh Battery"
+    },
+    {
+        "id": 1010,
+        "category":"Mobiles",
+        "name": "Nokia 8",
+        "brand":"NOKIA",
+        "RAM": 4,
+        "image": "/assets/mobile.jpg",
+        "price": 35999,
+        "description": "64 GB ROM, 13 + 13 MP Camera 3000mAh Battery"
+    },
+    {
+        "id": 3001,
+        "category":"Televisions",
+        "name": "MI Led TV 108 CM",
+        "brand":"MI",
+        "image": "/assets/mi.jpg",
+        "price": 21999,
+        "description": "Full HD, 1920x1080 px, 1 Year Warranty"
+    },
+    {
+        "id": 3002,
+        "category":"Televisions",
+        "name": "Samsung LED Tv 108 CM",
+        "brand":"Samsung",
+        "image": "/assets/mi.jpg",
+        "price": 35000,
+        "description": "Full HD, 1920x1080 px, 1 Year Warranty"
+    },
+    {
+        "id": 3003,
+        "category":"Televisions",
+        "name": "Sony Bravia Led TV",
+        "brand":"Sony",
+        "image": "/assets/mi.jpg",
+        "price": 4199,
+        "description": "Full HD, 1920x1080 px, 1 Year Warranty"
+    },
+    {
+        "id": 3004,
+        "category":"Televisions",
+        "name": "Micromax Led TV 32 CM",
+        "brand":"Micromax",
+        "image": "/assets/mi.jpg",
+        "price": 11999,
+        "description": "Full HD, 1920x1080 px, 1 Year Warranty"
+    }
+
+]
